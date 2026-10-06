@@ -1,0 +1,6 @@
+import streamlit as st
+st.title("Searching Here for knowledege")
+st.divider()
+Name=st.text_input("Enter information")
+st.write("output is:",Name)
+
