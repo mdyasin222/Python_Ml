@@ -1,0 +1,16 @@
+http://localhost:8501/
+
+
+import streamlit as st
+st.title("Searching Here for knowledege")
+st.divider()
+Name=st.text_input("Enter information")
+#st.write("output is:",Name)
+
+age=st.number_input("Enter NO",value=None,placeholder="Enter age")
+
+#print(type(age))
+#st.write("Age your",age)
+pressed=st.button("Enter here")
+if pressed:
+    st.write(f"yuor name={Name} and your age={age}")
